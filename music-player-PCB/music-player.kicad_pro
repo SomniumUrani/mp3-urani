@@ -416,7 +416,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "R1,D1,C1-10,L1,U1,Y1,#PWR1-11,J1-2",
+    "used_designators": "R1,FPC1,D1,C1-10,L1,U1,Y1,#PWR1-15,J1-2",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,10 @@
     [
       "a9adefd2-b3f7-437c-abe5-56f1eb36b2df",
       "MCU"
+    ],
+    [
+      "c15a4f1f-23ee-4f07-a5a2-1635868259e6",
+      "LCD"
     ]
   ],
   "text_variables": {},
