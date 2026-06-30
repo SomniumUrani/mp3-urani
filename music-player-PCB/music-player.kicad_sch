@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "6db28ba2-2c43-4ce8-a545-b64bcc3a303f")
 	(paper "A4")
+	(title_block
+		(title "Music Player")
+		(company "Urani House")
+		(comment 1 "Alan Pedraja")
+	)
 	(lib_symbols)
 	(sheet
 		(at 22.86 167.64)
