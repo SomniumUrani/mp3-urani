@@ -1,0 +1,36 @@
+# MP3 - Urani House
+
+## Button layout
+
+![xd](img/button_layout.jpg)
+
+## Special components on PCB
+
+| Name                  | MPN           | Source | Source No. | Description                            |
+| --------------------- | ------------- | ------ | ---------- | -------------------------------------- |
+| LCD                   | HS24CG003-ARX | LCSC   | C5329583   | 240*320 dots (RGB) SPI INTERFACE       |
+| FPC connector for LCD | LW10251-16    | LCSC   | C375934    | CONN FFC FPC 16POS 1mm TOP CNT SMD R/A |
+
+## Communication protocols peripherals
+
+### SPI - MISO/MOSI
+
+| Peripheral | Max speed | Use  |
+| ---------- | --------- | ---- |
+| SPI 1      | 50 Mbit/s | None |
+| SPI 2      | 25 Mbit/s | None |
+| SPI 3      | 25 Mbit/s | None |
+| SPI 4      | 50 Mbit/s | None |
+| SPI 5      | 50 Mbit/s | None |
+
+### I2C - SDA/SCL
+
+Their frequency can be increased up to 1 MHz. For more details on
+the complete solution, refer to the nearest STMicroelectronics sales office.
+
+| Peripheral | Max speed | Use           |
+| ---------- | --------- | ------------- |
+| I2C x      | 1 MHz     | LCD           |
+| I2C x      | 400 KHz   | HMI expansion |
+| I2C x      | 400 KHz   | None          |
+| I2C x      | 400 KHz   | None          |
