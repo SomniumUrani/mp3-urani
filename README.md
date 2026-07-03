@@ -19,10 +19,10 @@
 | Peripheral | Max speed | Use          |
 | ---------- | --------- | ------------ |
 | SPI 1      | 50 Mbit/s | LCD          |
-| SPI 2      | 25 Mbit/s | LCD touch IC |
+| SPI 2      | 25 Mbit/s | None         |
 | SPI 3      | 25 Mbit/s | None         |
 | SPI 4      | 50 Mbit/s | None         |
-| SPI 5      | 50 Mbit/s | None         |
+| SPI 5      | 50 Mbit/s | LCD touch IC |
 
 ### I2C - SDA/SCL
 
