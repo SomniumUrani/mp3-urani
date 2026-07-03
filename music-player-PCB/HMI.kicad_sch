@@ -702,6 +702,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:YSSP2AG00"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "YSSP2AG00"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_YSSP2AG00"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5188558.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YIYUAN(怡远)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "YSSP2AG00"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5188558"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Slide Switches"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "YSSP2AG00_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.03) (xy -1.27 2.03) (xy -1.27 1.27) (xy 0 1.27) (xy 0 2.03) (xy 1.27 2.03) (xy 1.27 0.51)
+						(xy -2.54 0.51) (xy -2.54 2.03) (xy -2.54 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 5.08 0) (xy 4.32 0.51) (xy 4.32 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.03) (xy 0 -2.03) (xy 0 -1.27) (xy -1.27 -1.27) (xy -1.27 -2.03) (xy -2.54 -2.03) (xy -2.54 -0.51)
+						(xy 1.27 -0.51) (xy 1.27 -2.03) (xy 1.27 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.32 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1047,6 +1312,22 @@
 		(color 0 0 0 0)
 		(uuid "ea4edc65-95f5-4c58-9f75-20adb38c75b0")
 	)
+	(no_connect
+		(at 102.87 140.97)
+		(uuid "2bc6555a-1bc3-4ad2-92fb-32152db1f8b6")
+	)
+	(no_connect
+		(at 110.49 130.81)
+		(uuid "48fccfc3-05d7-4d26-aeb7-b0a3971720f6")
+	)
+	(no_connect
+		(at 110.49 140.97)
+		(uuid "825aaaa6-5dd2-45a8-970c-ec66c0ae6c71")
+	)
+	(no_connect
+		(at 106.68 140.97)
+		(uuid "eaf6b61b-4d78-430d-b6a4-c904c6ecad4b")
+	)
 	(wire
 		(pts
 			(xy 119.38 121.92) (xy 119.38 100.33)
@@ -1219,6 +1500,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 105.41) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71430dfb-8643-482a-a160-7f2575545c20")
+	)
+	(wire
+		(pts
 			(xy 113.03 90.17) (xy 96.52 90.17)
 		)
 		(stroke
@@ -1226,6 +1517,16 @@
 			(type default)
 		)
 		(uuid "71c431b1-b4f6-42d3-8585-f1dc62d55ad6")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757ee4bc-5b8e-4b12-9895-d58acb1d8f7e")
 	)
 	(wire
 		(pts
@@ -11913,6 +12214,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d642885-c7a9-4afd-ac2d-464ade8d254f")
+		(property "Reference" "#PWR021"
+			(at 102.87 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b870851-356f-449f-98b0-1bb1d319b4b9")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cc66fdbd-e481-4ba5-a0d4-40ee5726a246"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 86.36 74.93 0)
 		(mirror y)
@@ -12311,6 +12690,133 @@
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cc66fdbd-e481-4ba5-a0d4-40ee5726a246"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:YSSP2AG00")
+		(at 105.41 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ebf431-d652-4e23-9995-2aa0ef3ca6aa")
+		(property "Reference" "U4"
+			(at 111.76 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YSSP2AG00"
+			(at 111.76 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_YSSP2AG00"
+			(at 105.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5188558.pdf"
+			(at 105.41 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YIYUAN(怡远)"
+			(at 105.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "YSSP2AG00"
+			(at 105.41 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5188558"
+			(at 105.41 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "64264bd8-d07b-4b43-bb49-88ff5f2a499c")
+		)
+		(pin "5"
+			(uuid "ffb3309c-7e9d-4ddc-9b39-51e5a21813af")
+		)
+		(pin "4"
+			(uuid "b13d1db2-6b88-4ac9-b32e-c57ad9a3ada5")
+		)
+		(pin "3"
+			(uuid "c19171f4-8fb6-41ab-90b6-67cf9a1bb268")
+		)
+		(pin "2"
+			(uuid "ce32d936-7912-4ed9-a32a-2b517fa049cd")
+		)
+		(pin "1"
+			(uuid "4cdbc34b-9378-4894-82bb-80e85fb20c16")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cc66fdbd-e481-4ba5-a0d4-40ee5726a246"
+					(reference "U4")
 					(unit 1)
 				)
 			)
