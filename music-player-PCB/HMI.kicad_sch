@@ -13027,7 +13027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/pcf8574"
 			(at 86.36 97.79 0)
 			(hide yes)
 			(show_name no)

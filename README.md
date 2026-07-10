@@ -4,7 +4,7 @@
 
 ![xd](img/button_layout.jpg)
 
-## Special components on PCB
+## Special outsource components on PCB
 
 | Name                  | MPN           | Source | Source No. | Description                                                  |
 | --------------------- | ------------- | ------ | ---------- | ------------------------------------------------------------ |
@@ -13,6 +13,17 @@
 | TF slot               | TF PUSH       | LCSC   | C393941    | CONN MICRO SD CARD (TF CARD) PUSH-PUSH SMD                   |
 | Debug Slider          | YSSP2AG00     | LCSC   | C5188558   | 300mA Surface Mount,Vertical DPDT 4V SMD Slide Switches RoHS |
 | Audio Jack            | PJ-342 141    | LCSC   | C7507452   | CONN JACK STEREO 3.5mm SMD                                   |
+
+## Electric chars
+
+| Description   | Num             | V min | typ | V max | mA  |
+| ------------- | --------------- | ----- | --- | ----- | --- |
+| MCU           | STM32F412       | 1.7   | -   | 3.6   | 30  |
+| MCU           | ESP32           | 3     | 3.3 | 3.6   | 450 |
+| LCD backlight | HS24CG003-ARX   | 2.8   | 3   | 3.2   | 80  |
+| LCD vdd       | NHS24CG003-ARXA | 1.65  | 1.8 | 3.3   | -   |
+| IO expander   | PCF8574T        | 2.5   | -   | 6     | 25  |
+| DAC           | PCM5102A        | 3.1   | 3.3 | 3.46  | 10  |
 
 ## Communication protocols peripherals
 

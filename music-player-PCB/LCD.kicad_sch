@@ -1735,30 +1735,6 @@
 			)
 		)
 	)
-	(global_label "LCD_Back_light_K"
-		(shape input)
-		(at 158.75 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b0bc777-8025-484b-9423-0292437761dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1945 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "LCD_T_BSY"
 		(shape input)
 		(at 80.01 82.55 180)
@@ -1772,6 +1748,30 @@
 		(uuid "3eb5e5a0-48c1-4d50-9b22-b0ef3a7b9782")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.9858 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LCD_Back_light_K"
+		(shape input)
+		(at 158.75 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "661b8bc1-fa32-4af1-9fba-63e621f073fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.1945 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

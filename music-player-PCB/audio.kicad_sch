@@ -2797,6 +2797,12 @@
 		(uuid "6422bb60-34c5-4332-ae71-0e0f85c700a8")
 	)
 	(junction
+		(at 76.2 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72793100-fbb4-47ba-9606-45edc98db106")
+	)
+	(junction
 		(at 195.58 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2843,12 +2849,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b85ee775-2d9b-47d6-ab88-211a7eb0ad15")
-	)
-	(junction
-		(at 76.2 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9ac5b9b-f51e-491e-96bd-cc08e8bf6559")
 	)
 	(junction
 		(at 229.87 93.98)
@@ -3138,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 76.2 39.37)
+			(xy 76.2 30.48) (xy 76.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3426,7 @@
 		)
 		(uuid "5d9e5cb7-bcc0-4ce8-b6d1-9a07d8f6b677")
 	)
-	(label "DIGITAL_POWER"
+	(label "MCU_POWER"
 		(at 76.2 53.34 90)
 		(effects
 			(font
@@ -7055,7 +7055,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 76.2 31.75 0)
+		(at 76.2 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7066,7 +7066,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6f0127e-cab8-44ac-85b1-79b64a1438a1")
 		(property "Reference" "#PWR034"
-			(at 76.2 35.56 0)
+			(at 76.2 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7077,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 76.2 26.67 0)
+			(at 76.2 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7087,7 +7087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 31.75 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7098,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 31.75 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,7 +7109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 31.75 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
