@@ -1,4 +1,6 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/external/easyeda2kicad.kicad_sym") (options "") (descr ""))
+	(lib (name "BQ25622RYKR") (type "KiCad") (uri "${KIPRJMOD}/external/BQ25622RYKR/2026-07-12_00-06-49.kicad_sym") (options "") (descr ""))
+	(lib (name "PCF8574DW") (type "KiCad") (uri "${KIPRJMOD}/external/PCF8574DW/2026-07-10_07-24-44.kicad_sym") (options "") (descr ""))
 )
