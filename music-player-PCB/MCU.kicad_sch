@@ -1670,6 +1670,12 @@
 		(uuid "3137224c-241d-4583-977a-1a62ae457ad4")
 	)
 	(junction
+		(at 83.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "377ad0e6-c8fd-47ba-82ba-e4d52189ee63")
+	)
+	(junction
 		(at 113.03 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1806,6 +1812,16 @@
 			(type default)
 		)
 		(uuid "1e8218cd-3da3-4899-bc05-a4fa3eae364f")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 95.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c66248-331c-4aed-b626-20914ba95ed7")
 	)
 	(wire
 		(pts
@@ -1956,6 +1972,16 @@
 			(type default)
 		)
 		(uuid "8480124c-4e07-4ec8-82d1-81276573db21")
+	)
+	(wire
+		(pts
+			(xy 74.93 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1e129e-eef4-4613-98bb-4e3044e4ce03")
 	)
 	(wire
 		(pts
@@ -2359,6 +2385,30 @@
 			)
 		)
 	)
+	(global_label "POW_INT"
+		(shape input)
+		(at 95.25 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dc30033-eaa4-4dfd-ada5-109240d970ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3424 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LCD_SCL"
 		(shape input)
 		(at 130.81 99.06 0)
@@ -2468,6 +2518,30 @@
 		(uuid "7ca2d6a0-7351-4fac-b844-b4754e36afec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.0076 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "POW_HOLD"
+		(shape input)
+		(at 95.25 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "876676fa-7ae4-4aa9-88b1-30b59aa023f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2862 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,6 +2710,30 @@
 		(uuid "b50c1d4b-2598-411d-ac8b-b849cb3a5f46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.7334 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "POW_RST"
+		(shape input)
+		(at 74.93 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7a02db0-4a00-420a-a90d-80cfbd87b609")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.4782 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3235,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 86.36 90)
+		(at 83.82 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3148,7 +3246,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d7c0dd7-5302-4591-9e63-a8b925ed740d")
 		(property "Reference" "C10"
-			(at 91.44 78.74 90)
+			(at 76.2 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3158,7 +3256,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 91.44 81.28 90)
+			(at 78.74 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3168,7 +3266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 85.3948 0)
+			(at 82.8548 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3179,7 +3277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 86.36 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3288,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 86.36 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,7 +3394,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 86.36 270)
+		(at 83.82 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3307,7 +3405,7 @@
 		(fields_autoplaced yes)
 		(uuid "588b9c48-02b4-4edb-bfd1-069185ca82da")
 		(property "Reference" "#PWR08"
-			(at 81.28 86.36 0)
+			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,18 +3416,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 86.3599 90)
+			(at 80.01 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 86.36 0)
+			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3340,7 +3437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 86.36 0)
+			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3351,7 +3448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 86.36 0)
+			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
