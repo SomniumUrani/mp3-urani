@@ -4636,6 +4636,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 154.94) (xy 58.42 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ada996e-bc64-4b0d-b66e-deea6c617a21")
+	)
+	(wire
+		(pts
 			(xy 292.1 43.18) (xy 294.64 43.18)
 		)
 		(stroke
@@ -4873,6 +4883,16 @@
 			(type default)
 		)
 		(uuid "7cc024ac-2461-412a-a04e-38667e7132c6")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce02c52-fa41-4cfc-bd5e-3d971f43b5ee")
 	)
 	(wire
 		(pts
@@ -5460,7 +5480,7 @@
 	)
 	(global_label "VBAT+"
 		(shape input)
-		(at 86.36 172.72 0)
+		(at 114.3 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5470,7 +5490,7 @@
 		)
 		(uuid "4c20c412-45bf-433b-b83c-a2b4dab4d012")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.3324 172.72 0)
+			(at 123.2724 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6646,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 81.28 172.72 270)
+		(at 109.22 171.45 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6657,7 +6677,7 @@
 		(dnp no)
 		(uuid "2e41250d-906e-4a34-bd1e-f2e7ba5b60c4")
 		(property "Reference" "BT1"
-			(at 78.486 164.846 90)
+			(at 106.426 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6668,7 +6688,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 78.486 167.386 90)
+			(at 106.426 166.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6679,7 +6699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.804 172.72 90)
+			(at 110.744 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,7 +6710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.804 172.72 90)
+			(at 110.744 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6701,7 +6721,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 81.28 172.72 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,7 +6732,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 81.28 172.72 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6743,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 81.28 172.72 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +6754,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 81.28 172.72 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,6 +7093,86 @@
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e743af6-dcf6-41a8-aa42-7553581e607f")
+		(property "Reference" "#PWR092"
+			(at 69.85 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 154.9399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22138175-7bda-4bf0-8dd8-4ca1fa848d69")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -8290,7 +8390,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 172.72 270)
+		(at 104.14 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8301,7 +8401,7 @@
 		(fields_autoplaced yes)
 		(uuid "80dc7f50-0308-40c3-bb67-c497be298fdb")
 		(property "Reference" "#PWR057"
-			(at 69.85 172.72 0)
+			(at 97.79 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8312,7 +8412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 172.72 0)
+			(at 99.06 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8322,7 +8422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 172.72 0)
+			(at 104.14 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +8433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 172.72 0)
+			(at 104.14 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 172.72 0)
+			(at 104.14 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8440,6 +8540,86 @@
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82419bf2-40ea-4e72-91a6-9c22c5ca0384")
+		(property "Reference" "#PWR091"
+			(at 77.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 157.4799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e07fe3e0-8beb-4b0b-a96e-d1250a220c39")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -9168,6 +9348,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 68.58 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "972536e4-26d3-43b8-9d81-e90c3def6904")
+		(property "Reference" "R33"
+			(at 68.58 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 68.58 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1132cb44-fdcb-451c-a18e-eb537791e318")
+		)
+		(pin "2"
+			(uuid "9d59acf4-a131-4677-bfcd-b2125ee379dc")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 40.64 270)
 		(unit 1)
@@ -9483,6 +9743,86 @@
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 60.96 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a729e2c9-7f99-4a29-b22a-734ef1953bb7")
+		(property "Reference" "R32"
+			(at 60.96 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 60.96 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 60.96 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30e8b007-bb66-4aa9-b63d-c0df9a7208d1")
+		)
+		(pin "2"
+			(uuid "dcc16040-befd-405d-a525-ebafae2e6051")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cb0a56c3-f945-47a4-a057-0681fd24f8d7"
+					(reference "R32")
 					(unit 1)
 				)
 			)
