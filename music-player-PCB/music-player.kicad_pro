@@ -416,7 +416,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "CN1,J1-2,Q1,BT1,#PWR1-92,Y1,L1-2,C1-46,Card1,FPC1,U1-12,D1-9,R1-33,SW1-9,TH1",
+    "used_designators": "CN1,J1-2,Q1,BT1,#PWR1-105,Y1,L1-2,C1-58,Card1,FPC1,U1-14,D1-9,R1-36,SW1-9,TH1",
     "variants": []
   },
   "sheets": [
@@ -447,6 +447,14 @@
     [
       "c207941f-e456-48dd-a8b4-8c2552a5de31",
       "Audio"
+    ],
+    [
+      "50a3746e-cb42-4e3a-94cc-1eef5e0c58f8",
+      "JackA"
+    ],
+    [
+      "db9902bd-310b-4ab6-ae8f-42cb3402bd39",
+      "JackB"
     ]
   ],
   "text_variables": {},
