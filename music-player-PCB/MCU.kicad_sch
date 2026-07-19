@@ -2684,6 +2684,30 @@
 		)
 		(uuid "c7829a59-4e6a-44f0-9e85-09c3d92e1618")
 	)
+	(global_label "SD_ACTIVATE"
+		(shape input)
+		(at 130.81 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02522d70-0ba4-4aae-a50b-1f3cc644788b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4671 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I2S_SD"
 		(shape input)
 		(at 130.81 88.9 0)
