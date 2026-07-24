@@ -2804,6 +2804,30 @@
 			)
 		)
 	)
+	(global_label "ESP-STM_USART_RX"
+		(shape input)
+		(at 130.81 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c59e0d1-4f00-4357-9f47-39b6db183dee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.9055 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "HMI_SDA"
 		(shape input)
 		(at 95.25 132.08 180)
@@ -2900,6 +2924,54 @@
 			)
 		)
 	)
+	(global_label "AUXB_DETECT"
+		(shape input)
+		(at 95.25 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cf2bdf8-1e9b-4211-8818-4b53d90674c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.6254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AUDIO_AMP_ENABLE"
+		(shape input)
+		(at 130.81 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e659455-edcc-49cb-9b3e-ad79c7f0e96e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "POW_INT"
 		(shape input)
 		(at 95.25 129.54 180)
@@ -2993,6 +3065,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LCD_RST"
+		(shape input)
+		(at 95.25 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67b0e554-0b96-454c-b572-7dfc2917a492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.282 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3140,9 +3236,9 @@
 			)
 		)
 	)
-	(global_label "AUX_DETECT"
+	(global_label "AUXA_DETECT"
 		(shape input)
-		(at 95.25 147.32 180)
+		(at 95.25 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3150,9 +3246,9 @@
 			)
 			(justify right)
 		)
-		(uuid "995bb768-7d82-4ef2-af3a-dd017fff7f9d")
+		(uuid "8ec03146-ec11-49b0-ae6b-f6d518ee658c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.8954 147.32 0)
+			(at 79.8068 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,30 +3257,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "LCD_RST"
-		(shape input)
-		(at 130.81 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad70dd18-ec64-4d17-8653-dd5bca5a2c4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.778 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -3201,6 +3273,30 @@
 		(uuid "b207a56e-b690-437e-8508-06d9b5d8b1cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.2337 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESP-STM_USART_TX"
+		(shape input)
+		(at 130.81 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2dd02bb-d1f8-497c-9e27-a79d1d303ab6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6031 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
