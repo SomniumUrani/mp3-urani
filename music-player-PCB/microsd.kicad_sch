@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Music Player")
+		(date "2026-07-24")
+		(rev "SCH1")
 		(company "Urani House")
 		(comment 1 "Alan Pedraja")
 	)
@@ -609,6 +611,147 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name ""
 						(effects
 							(font
@@ -1472,12 +1615,6 @@
 		(uuid "e90d9051-cab6-4fd0-9e25-0f652283cad6")
 	)
 	(junction
-		(at 100.33 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ef77a10-c95d-417c-8912-62a85e79b77e")
-	)
-	(junction
 		(at 193.04 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1536,6 +1673,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a94d0da-5da6-470f-b4d9-837068f65dbf")
+	)
+	(junction
+		(at 101.6 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77416e4c-d360-4cec-bf02-198baf52680a")
 	)
 	(junction
 		(at 191.77 60.96)
@@ -1755,6 +1898,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a4d59c-d7b4-40f9-83c9-1cacde4da3eb")
+	)
+	(wire
+		(pts
 			(xy 226.06 95.25) (xy 229.87 95.25)
 		)
 		(stroke
@@ -1872,6 +2025,16 @@
 			(type default)
 		)
 		(uuid "4ed1c098-5019-42cf-baf9-9a71249021c1")
+	)
+	(wire
+		(pts
+			(xy 229.87 104.14) (xy 229.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513a2856-2571-44e4-837a-74f2826d1efa")
 	)
 	(wire
 		(pts
@@ -1995,16 +2158,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 100.33 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7871bb50-46b4-4505-821b-b20c4c433842")
-	)
-	(wire
-		(pts
 			(xy 135.89 85.09) (xy 148.59 85.09)
 		)
 		(stroke
@@ -2125,13 +2278,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 43.18) (xy 100.33 43.18)
+			(xy 100.33 43.18) (xy 101.6 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0a60965-0cc4-4106-82a6-08195651eb2e")
+		(uuid "95633bfd-bdba-41ba-b1a6-cd87e23eea32")
 	)
 	(wire
 		(pts
@@ -2222,6 +2375,16 @@
 			(type default)
 		)
 		(uuid "b796668b-d89a-4fef-ab19-0878bec6056f")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 105.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaeb025-d546-4574-b7a8-36a92cdd2d33")
 	)
 	(wire
 		(pts
@@ -2568,6 +2731,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "mSD_DETECT"
+		(shape input)
+		(at 229.87 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8500fd7-0ebe-4a0d-8f61-91e95273743e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.7688 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3217,6 +3404,88 @@
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/55d7ef5f-4052-4b8c-a3f4-f75f47d4da71"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4daf0c0b-6a4c-46c6-80e0-56466fee15e5")
+		(property "Reference" "R44"
+			(at 104.14 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "480"
+			(at 104.14 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b51b355-e473-4ce5-9e16-098f342ae6f0")
+		)
+		(pin "1"
+			(uuid "74e31578-1278-44c5-a8ef-3af2c672317f")
+		)
+		(instances
+			(project "music-player"
+				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/55d7ef5f-4052-4b8c-a3f4-f75f47d4da71"
+					(reference "R44")
 					(unit 1)
 				)
 			)

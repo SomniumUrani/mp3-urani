@@ -12,7 +12,7 @@
 | FPC connector for LCD | LW10251-16      | LCSC   | C375934    | CONN FFC FPC 16POS 1mm TOP CNT SMD R/A                       |
 | TF slot               | TF PUSH         | LCSC   | C393941    | CONN MICRO SD CARD (TF CARD) PUSH-PUSH SMD                   |
 | Debug Slider          | YSSP2AG00       | LCSC   | C5188558   | 300mA Surface Mount,Vertical DPDT 4V SMD Slide Switches RoHS |
-| Audio Jack            | PJ-342 141      | LCSC   | C7507452   | CONN JACK STEREO 3.5mm SMD                                   |
+| Audio Jack            | PJ-393-7A       | LCSC   | C128990    | CONN JACK STEREO 3.5mm SMD                                   |
 | Crystal oscilator     | 2.D.1.260000704 | LCSC   | C42420962  | CRYSTAL 26MHz 7pF SMD                                        |
 
 ## Electric chars

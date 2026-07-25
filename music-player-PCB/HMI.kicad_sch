@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Music Player")
+		(date "2026-07-24")
+		(rev "SCH1")
 		(company "Urani House")
 		(comment 1 "Alan Pedraja")
 	)
@@ -1259,40 +1261,16 @@
 		(uuid "a24f5aa0-0eda-4b76-b646-53d89896dec8")
 	)
 	(junction
-		(at 63.5 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9f9d7ff-503d-4dec-bf8a-04b8acfa1052")
-	)
-	(junction
-		(at 72.39 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa86bb38-876d-4d22-8df8-b6f280003bef")
-	)
-	(junction
 		(at 134.62 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7cc36a5-fcd1-454c-9dda-4e2379b2b4b7")
 	)
 	(junction
-		(at 72.39 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb9f7bd5-f22b-43bb-99bb-308c0bce1983")
-	)
-	(junction
 		(at 76.2 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1603e2b-b724-4c60-abbf-07ae7e3f68b2")
-	)
-	(junction
-		(at 63.5 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4d17cc7-eab8-4fe0-92f7-4cbe5cb05f40")
 	)
 	(junction
 		(at 134.62 132.08)
@@ -1370,17 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 90.17) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "133e584d-1c9c-4e59-bffe-90c84dcdd113")
-	)
-	(wire
-		(pts
-			(xy 63.5 87.63) (xy 76.2 87.63)
+			(xy 50.8 87.63) (xy 76.2 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1440,16 +1408,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 77.47) (xy 72.39 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ea80a0f-39c5-4256-b230-41168cd8db04")
-	)
-	(wire
-		(pts
 			(xy 86.36 74.93) (xy 86.36 77.47)
 		)
 		(stroke
@@ -1490,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 90.17) (xy 72.39 90.17)
+			(xy 50.8 90.17) (xy 76.2 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1530,16 +1488,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 87.63) (xy 63.5 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6295d1-5304-4805-a0ca-5dfd0f02e9c3")
-	)
-	(wire
-		(pts
 			(xy 120.65 110.49) (xy 120.65 97.79)
 		)
 		(stroke
@@ -1547,16 +1495,6 @@
 			(type default)
 		)
 		(uuid "8c9f3f3f-a1af-49df-b6d3-073fa0ac1bb4")
-	)
-	(wire
-		(pts
-			(xy 72.39 85.09) (xy 72.39 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6ada56-314d-4052-b5bb-55eff678b692")
 	)
 	(wire
 		(pts
@@ -1660,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 77.47) (xy 63.5 77.47)
+			(xy 54.61 77.47) (xy 86.36 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1700,16 +1638,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 63.5 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d88443b4-e508-493e-af28-e080e9df4f3e")
-	)
-	(wire
-		(pts
 			(xy 111.76 64.77) (xy 111.76 87.63)
 		)
 		(stroke
@@ -1737,16 +1665,6 @@
 			(type default)
 		)
 		(uuid "e49476e4-bef0-4d39-bac7-0c1da8039410")
-	)
-	(wire
-		(pts
-			(xy 72.39 77.47) (xy 86.36 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb5dba7-afb0-43ea-93ae-0db1328b8c7f")
 	)
 	(wire
 		(pts
@@ -12526,170 +12444,6 @@
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cc66fdbd-e481-4ba5-a0d4-40ee5726a246"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38267162-9d6d-4264-9765-b3494c0f557f")
-		(property "Reference" "R15"
-			(at 66.04 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 66.04 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.722 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "282bad4e-54f3-4f8d-a39e-a6b1a9901365")
-		)
-		(pin "2"
-			(uuid "e3c7951a-8d12-444b-91f7-1005ee189c46")
-		)
-		(instances
-			(project "music-player"
-				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cc66fdbd-e481-4ba5-a0d4-40ee5726a246"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43a844f5-672b-4e79-9df1-a51b072a3c6d")
-		(property "Reference" "R14"
-			(at 74.93 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 74.93 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 70.612 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97903f1c-28c4-492c-958c-94f5d2762ce7")
-		)
-		(pin "2"
-			(uuid "ba70723e-7b02-4f8f-a620-44b3e1620d85")
-		)
-		(instances
-			(project "music-player"
-				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/cc66fdbd-e481-4ba5-a0d4-40ee5726a246"
-					(reference "R14")
 					(unit 1)
 				)
 			)

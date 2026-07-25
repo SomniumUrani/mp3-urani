@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "SCH1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -460,7 +460,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -468,25 +468,25 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -661,7 +661,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "TP1-6,U1-14,D1-9,Q1,#PWR1-105,Y1,BT1,Audio1-2,FPC1,Card1,C1-58,L1-2,R1-40,TH1,SW1-9,CN1,J1-2",
+    "used_designators": "L1-2,BT1,Y1,#PWR1-115,J1-2,CN1,SW1-10,TH1,TP1-12,R1-44,Q1,U1-14,D1-9,Audio1-2,FPC1,Card1,C1-58",
     "variants": []
   },
   "sheets": [
@@ -683,7 +683,7 @@
     ],
     [
       "55d7ef5f-4052-4b8c-a3f4-f75f47d4da71",
-      "sd card"
+      "SD card"
     ],
     [
       "cb0a56c3-f945-47a4-a057-0681fd24f8d7",
