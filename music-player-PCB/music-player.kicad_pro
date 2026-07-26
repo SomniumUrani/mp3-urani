@@ -210,7 +210,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +244,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.2,
+          "drill": 0.1
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.125
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
@@ -661,7 +675,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "L1-2,BT1,Y1,#PWR1-115,J1-2,CN1,SW1-10,TH1,TP1-12,R1-44,Q1,U1-14,D1-9,Audio1-2,FPC1,Card1,C1-58",
+    "used_designators": "USB1,J1-2,CN1,#PWR1-124,Y1,TP1-12,R1-44,TH1,SW1-10,C1-58,Card1,FPC1,Audio1-2,D1-9,U1-14,Q1,L1-2,BT1",
     "variants": []
   },
   "sheets": [

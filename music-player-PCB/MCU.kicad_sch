@@ -5283,7 +5283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0519630b-b59c-4589-a178-88dd3d86f740")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR02"
 			(at 44.45 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5343,7 +5343,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR0107")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1327c002-8de2-43e2-b472-90609502fae2")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR01"
 			(at 35.56 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5422,7 +5422,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR086")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c5bffd7-0dfc-4345-90c9-0fa2ad99448a")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR016"
 			(at 219.71 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +5500,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR0106")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da66b5e-c74b-49dc-8b54-445f6da39924")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 100.33 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 68.2752 0)
 			(hide yes)
 			(show_name no)
@@ -5580,7 +5580,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5598,7 +5598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22fcc6ed-9321-4536-af3c-a03b05dbcaec")
-		(property "Reference" "U13"
+		(property "Reference" "U2"
 			(at 221.8533 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "U13")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5722,7 +5722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "263d66be-c99f-41c8-8b28-5522207af30e")
-		(property "Reference" "R15"
+		(property "Reference" "R1"
 			(at 46.99 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +5744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 42.672 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -5786,7 +5786,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "R15")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5804,7 +5804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ebc4862-e7db-476b-a682-89ab993f6eea")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 111.7599 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +5826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 65.0748 0)
 			(hide yes)
 			(show_name no)
@@ -5868,7 +5868,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5886,7 +5886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b34c7e4-7ec1-49fe-9538-256c532550a0")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 55.88 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5908,7 +5908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 51.562 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -5950,7 +5950,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5968,7 +5968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dee1ef3-79ef-41fb-80bf-165660baa89d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 72.39 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6029,7 +6029,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41ae7b88-5f36-4c84-bbb3-c5ca6fc5f21a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6108,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6126,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d7c0dd7-5302-4591-9e63-a8b925ed740d")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 69.85 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +6188,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6229,7 +6229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 46.99 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fe3b460-0d39-43b3-86ca-da9b0d80ab3b")
-		(property "Reference" "TP7"
+		(property "Reference" "TP4"
 			(at 215.138 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +6416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 218.44 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6455,7 +6455,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP7")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6473,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5333237c-45f3-42e0-913c-b27e28bcbd09")
-		(property "Reference" "R42"
+		(property "Reference" "R4"
 			(at 199.39 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 195.072 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -6537,7 +6537,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "R42")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6555,7 +6555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588b9c48-02b4-4edb-bfd1-069185ca82da")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6616,7 +6616,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6634,7 +6634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bdbf580-6a42-4f1a-a0f1-52d712df9a0c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 87.63 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6694,7 +6694,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6712,7 +6712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6caf28-b281-4530-8e3c-fd890ccb3ae9")
-		(property "Reference" "SW10"
+		(property "Reference" "SW1"
 			(at 222.25 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +6734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.5-LS8.0-1"
 			(at 215.9 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6776,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "SW10")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6794,7 +6794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62ce3325-9ddb-42e1-8f07-3845444857bf")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR05"
 			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6854,7 +6854,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR0108")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "683de71b-afcc-47ed-b98e-531daf2f1283")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 64.77 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6932,7 +6932,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6950,7 +6950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e85fb5-89a0-4aa1-841e-77edb74d7b1e")
-		(property "Reference" "C43"
+		(property "Reference" "C2"
 			(at 49.53 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7014,7 +7014,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C43")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "770b5d63-28b8-46ce-b0f0-8ac9bd3ad5e9")
-		(property "Reference" "TP1"
+		(property "Reference" "TP7"
 			(at 244.348 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7052,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7091,7 +7091,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7109,7 +7109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d8c587-b297-454d-b77b-b0b2e6128a9f")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 111.7599 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +7131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 79.7052 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7173,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7191,7 +7191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf8f285-5c54-4050-a3c4-12954e871449")
-		(property "Reference" "R41"
+		(property "Reference" "R3"
 			(at 190.5 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7213,7 +7213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 186.182 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -7255,7 +7255,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "R41")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7272,7 +7272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8df51988-b745-44dc-bb39-7f4f3ceb9180")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 79.248 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 85.3948 0)
 			(hide yes)
 			(show_name no)
@@ -7334,7 +7334,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7352,7 +7352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961344c4-00fe-4b01-b6ee-c0bee055eb28")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 104.14 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -7412,7 +7412,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7430,7 +7430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "969faf7b-034f-47ef-b50b-6b6a41c3235b")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 198.628 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 201.93 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7489,7 +7489,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97493ec9-9b72-4786-aa92-6e4ffd665b7f")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 236.728 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 240.03 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7566,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca92058-e5f5-4e01-9f96-20df62d8aeed")
-		(property "Reference" "R43"
+		(property "Reference" "R5"
 			(at 208.28 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7606,7 +7606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 203.962 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -7648,7 +7648,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "R43")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e428bd3-76d4-4d9e-a80e-72b697329720")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 206.248 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7686,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 209.55 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7725,7 +7725,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7742,7 +7742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3239761-5187-418c-91b5-4621e4f09a01")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 58.674 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -7804,7 +7804,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7822,7 +7822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5512ff7-b49e-4b86-a3ed-9df47c59e330")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR04"
 			(at 40.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7883,7 +7883,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR088")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7901,7 +7901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a740c76a-93c5-4969-a8b2-6362837a6252")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 55.88 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7962,7 +7962,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7980,7 +7980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae18ec0d-9adb-47c6-bb5f-45d6a8b3594f")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR018"
 			(at 256.54 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8041,7 +8041,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR0102")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8059,7 +8059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72ac09d-79a9-4bbd-a40d-4ba1f7925059")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR03"
 			(at 40.64 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8120,7 +8120,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR087")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8635de5-fa38-4502-b5fe-c7e5cf4cba86")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 111.7599 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +8160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 93.6752 0)
 			(hide yes)
 			(show_name no)
@@ -8202,7 +8202,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd584d59-96b7-4718-9fa2-77f00cabaef3")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 100.33 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8240,7 +8240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -8282,7 +8282,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c38496-d2e0-41af-9991-6220b61619c4")
-		(property "Reference" "C3"
+		(property "Reference" "C8"
 			(at 100.33 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 54.3052 0)
 			(hide yes)
 			(show_name no)
@@ -8362,7 +8362,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C3")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8604,7 +8604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38bb99b-543b-4b4e-aa78-39b16f367579")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR017"
 			(at 220.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8665,7 +8665,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR0101")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8683,7 +8683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d488a8d5-1e5d-4d63-ac85-9ed3a3ff4e72")
-		(property "Reference" "C44"
+		(property "Reference" "C1"
 			(at 49.53 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8705,7 +8705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8747,7 +8747,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C44")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8764,7 +8764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d84f5149-e8ac-4654-bb69-ed4dbe8f32f5")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 65.532 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8784,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 165.4048 0)
 			(hide yes)
 			(show_name no)
@@ -8826,7 +8826,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3822fa8-92cf-4c9b-9e61-32a0078064c4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR014"
 			(at 116.84 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8905,7 +8905,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR07")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8923,7 +8923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb2c9470-833f-4a37-8581-d4427b08b370")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 227.838 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 231.14 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8982,7 +8982,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9000,7 +9000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9c760c-44fa-45cf-8eef-d15520cbee97")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR015"
 			(at 209.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9060,7 +9060,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "#PWR0105")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9078,7 +9078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe7b9264-c683-428d-9c5d-6ddb9b14b5e5")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 191.008 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 194.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9137,7 +9137,7 @@
 		(instances
 			(project "music-player"
 				(path "/6db28ba2-2c43-4ce8-a545-b64bcc3a303f/a9adefd2-b3f7-437c-abe5-56f1eb36b2df"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
