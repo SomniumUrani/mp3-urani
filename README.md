@@ -4,7 +4,19 @@
 
 ![xd](img/button_layout.jpg)
 
-## Special outsource components on PCB
+## Electric chars
+
+| Description   | Num             | V min | typ | V max | mA  |
+| ------------- | --------------- | ----- | --- | ----- | --- |
+| MCU           | STM32F412       | 1.7   | -   | 3.6   | 30  |
+| MCU           | ESP32           | 3     | 3.3 | 3.6   | 450 |
+| LCD backlight | HS24CG003-ARX   | 2.8   | 3   | 3.2   | 80  |
+| LCD vdd       | NHS24CG003-ARXA | 1.65  | 1.8 | 3.3   | -   |
+| IO expander   | PCF8574T        | 2.5   | -   | 6     | 25  |
+| DAC           | PCM5102A        | 3.1   | 3.3 | 3.46  | 10  |
+
+## Components stuff
+### Special outsource components on PCB
 
 | Name                  | MPN                   | Source | Source No. | Description                                                                                 |
 | --------------------- | --------------------- | ------ | ---------- | ------------------------------------------------------------------------------------------- |
@@ -18,7 +30,7 @@
 | Thermistor            | HNTC0805-104F3950FB   | LCSC   | C49247664  | 100kΩ 140uA 3950K ±1% 200mW ±1% 0805 NTC Thermistors RoHS                                   |
 | USB c receptacle      | TYPE-C 16PIN 2MD(073) | LCSC   | C2765186   | CONN RCPT Type-C 16POS SMD R/A                                                              |
 
-## Common components selection
+### Common components selection
 
 | Name           | MPN                 | Source | Source No. | Description                            |
 | -------------- | ------------------- | ------ | ---------- | -------------------------------------- |
@@ -26,18 +38,9 @@
 | Inductor 2.2uH | MNR4018T220MT       | LCSC   | C18222010  | FIXED IND 22uH 0.36Ω SMD,4x4mm         |
 | GREEN LED      | XL-2012UGC          | LCSC   | C965815    | LED EMERALD GREEN WATER CLEAR 0805 SMD |
 | BLUE LED       | XL-2012UBC          | LCSC   | C965817    | LED BLUE WATER CLEAR 0805 SMD          |
-| RED LED        | XL-2012SURC         |        | C965812    | LED RED WATER CLEAR 0805 SMD           |
+| RED LED        | XL-2012SURC         | LCSC   | C965812    | LED RED WATER CLEAR 0805 SMD           |
 
-## Electric chars
 
-| Description   | Num             | V min | typ | V max | mA  |
-| ------------- | --------------- | ----- | --- | ----- | --- |
-| MCU           | STM32F412       | 1.7   | -   | 3.6   | 30  |
-| MCU           | ESP32           | 3     | 3.3 | 3.6   | 450 |
-| LCD backlight | HS24CG003-ARX   | 2.8   | 3   | 3.2   | 80  |
-| LCD vdd       | NHS24CG003-ARXA | 1.65  | 1.8 | 3.3   | -   |
-| IO expander   | PCF8574T        | 2.5   | -   | 6     | 25  |
-| DAC           | PCM5102A        | 3.1   | 3.3 | 3.46  | 10  |
 
 ## Communication protocols peripherals
 
