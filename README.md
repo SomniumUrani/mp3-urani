@@ -15,7 +15,20 @@
 | IO expander   | PCF8574T        | 2.5   | -   | 6     | 25  |
 | DAC           | PCM5102A        | 3.1   | 3.3 | 3.46  | 10  |
 
+## PCB modules
+
+In priority order
+
+| Module                  | Reference design? |
+| ----------------------- | ----------------- |
+| Crystal oscilator       | Yes               |
+| LCD                     |                   |
+| Digital to double audio |                   |
+| Power                   | Yes               |
+| SD card                 |                   |
+
 ## Components stuff
+
 ### Special outsource components on PCB
 
 | Name                  | MPN                   | Source | Source No. | Description                                                                                 |
@@ -29,6 +42,7 @@
 | PUSH switch           | R4A25211L             | LCSC   | C49393629  | 30,000 cycles 50mA Without SPST-NO Rectangular Button 12V 1.8N SMD Pushbutton Switches RoHS |
 | Thermistor            | HNTC0805-104F3950FB   | LCSC   | C49247664  | 100kΩ 140uA 3950K ±1% 200mW ±1% 0805 NTC Thermistors RoHS                                   |
 | USB c receptacle      | TYPE-C 16PIN 2MD(073) | LCSC   | C2765186   | CONN RCPT Type-C 16POS SMD R/A                                                              |
+| Battery Connector     | S2B-PH-SM4-TB(LF)(SN) | LCSC   | C295747    | CONN HEADER SMD R/A 2POS 2mm                                                                |
 
 ### Common components selection
 
@@ -39,8 +53,6 @@
 | GREEN LED      | XL-2012UGC          | LCSC   | C965815    | LED EMERALD GREEN WATER CLEAR 0805 SMD |
 | BLUE LED       | XL-2012UBC          | LCSC   | C965817    | LED BLUE WATER CLEAR 0805 SMD          |
 | RED LED        | XL-2012SURC         | LCSC   | C965812    | LED RED WATER CLEAR 0805 SMD           |
-
-
 
 ## Communication protocols peripherals
 
