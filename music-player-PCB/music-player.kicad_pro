@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.11,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
@@ -211,11 +211,11 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.15,
         0.2,
         0.3,
         0.5,
-        1.0,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -555,7 +555,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/yhaksnes/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -679,7 +679,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "SW1-10,C1-58,Card1,FPC1,Audio1-2,Q1,U1-15,D1-9,L1-2,BT1,R1-50,TP1-15,USB1,J1-2,CN1,TH1-2,Y1,#PWR1-130",
+    "used_designators": "Audio1-2,FPC1,Card1,C1-58,SW1-10,BT1,L1-2,Q1,U1-15,D1-9,TP1-15,R1-50,USB1,J1-2,CN1,#PWR1-130,Y1,TH1-2",
     "variants": []
   },
   "sheets": [
