@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c1e2cc2b-bdaa-431d-8293-8db936d2b3ba")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 63.5 121.92)
+		(size 53.34 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "99219cd0-412b-458b-a254-0495a579d2c9")
+		(property "Sheetname" "Audio"
+			(at 63.5 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 63.5 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minimalcode"
+				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 118.11)
+		(size 44.45 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bf3f9bc7-adad-4364-9153-3a1894f056d7")
+		(property "Sheetname" "MSD"
+			(at 146.05 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "msd.kicad_sch"
+			(at 146.05 151.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minimalcode"
+				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 45.72)
+		(size 64.77 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "df81d1e8-6b33-4091-beeb-dc3590255f7f")
+		(property "Sheetname" "Power"
+			(at 175.26 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 175.26 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minimalcode"
+				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 52.07)
+		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e923e769-a77d-4801-80f2-7353ad810851")
+		(property "Sheetname" "Digital"
+			(at 41.91 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital.kicad_sch"
+			(at 41.91 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minimalcode"
+				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 49.53)
+		(size 39.37 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "edd187b9-fb44-4dbd-a822-fafae814b1c3")
+		(property "Sheetname" "HMI"
+			(at 113.03 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HMI.kicad_sch"
+			(at 113.03 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minimalcode"
+				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
