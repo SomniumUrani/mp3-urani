@@ -4860,7 +4860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1088a0db-ef82-4c0c-beeb-18524f50bcfe")
+		(uuid "09864ad6-ef30-476d-92e9-5b07c356e397")
 		(property "Reference" "FPC1"
 			(at 256.54 100.3299 0)
 			(show_name no)
@@ -4949,59 +4949,59 @@
 				)
 			)
 		)
-		(pin "18"
-			(uuid "239e902a-f3a5-4083-8feb-43e7d1d92425")
-		)
-		(pin "5"
-			(uuid "9736708a-9d07-4bdc-8fed-7952a30e88dd")
-		)
-		(pin "11"
-			(uuid "07c40ed3-8cce-47d9-a792-06be0c8a164f")
-		)
-		(pin "10"
-			(uuid "d6c1b0a3-8ae3-4425-bcf7-8a5649c46340")
-		)
-		(pin "3"
-			(uuid "f5353d1b-6a5a-4b5a-835f-1bbe8e5385b3")
-		)
-		(pin "6"
-			(uuid "1cfbd498-217f-4bd4-875c-3964ad53b783")
-		)
-		(pin "7"
-			(uuid "3535ca67-3b95-4674-b0ee-5ed4c19526ae")
-		)
-		(pin "13"
-			(uuid "3e9a592a-e67a-4815-9738-db84911d9a4a")
-		)
 		(pin "17"
-			(uuid "8fc6cc1f-6a35-4439-b2a8-30fd570fb82e")
+			(uuid "13e4d015-e025-4e3a-a7d3-6c26bb8e94d1")
 		)
-		(pin "14"
-			(uuid "764afd55-818f-4551-a93a-4af9a58954c8")
+		(pin "18"
+			(uuid "51306888-00fd-4214-8516-f0e69b29d6e0")
 		)
 		(pin "15"
-			(uuid "fd0b9060-0dc0-4a51-a7fd-8fc66975e3fb")
+			(uuid "386e5931-acb4-4e83-9b1e-ba6ffbcad2c0")
 		)
 		(pin "16"
-			(uuid "4b9dd2ce-20f4-471c-b8ca-6951c77270e9")
+			(uuid "516816b0-c333-457d-b426-cff34f4f0d05")
 		)
-		(pin "9"
-			(uuid "55c10da5-1099-46a3-abd2-5abc306b33e2")
+		(pin "14"
+			(uuid "e3f5bd13-8c66-4b1d-9058-1a6b0cb51032")
 		)
-		(pin "1"
-			(uuid "70aba69f-3468-4f18-b4de-60cea87c8d4a")
-		)
-		(pin "8"
-			(uuid "76bce4a4-e463-414a-8502-89127c70e922")
+		(pin "13"
+			(uuid "782c93e8-483b-41fe-afef-941afc531dd0")
 		)
 		(pin "12"
-			(uuid "9085f170-5ac6-4e58-8fd6-4b93af8055ca")
+			(uuid "ff21a797-0a6a-4d40-8a1a-4114d1a0a401")
 		)
-		(pin "2"
-			(uuid "f7c89864-43a0-42f7-9391-5181b0cee0d2")
+		(pin "11"
+			(uuid "5c7df3f7-355e-4571-bcf6-b6d823744313")
+		)
+		(pin "10"
+			(uuid "65cf1083-b294-46a1-b5e2-232d8570a73e")
+		)
+		(pin "9"
+			(uuid "291f04a3-540a-4e13-8be2-db32629182f6")
+		)
+		(pin "8"
+			(uuid "db383782-7472-4a6b-927e-4642f2270db7")
+		)
+		(pin "7"
+			(uuid "963872a5-27c2-4323-9175-3073999ed07f")
+		)
+		(pin "6"
+			(uuid "418a0f36-a9fc-4e72-b58a-3f31db26bb83")
+		)
+		(pin "5"
+			(uuid "291bf694-7a26-4953-a233-724334dcff55")
 		)
 		(pin "4"
-			(uuid "3af85610-7606-4308-8090-3b84073c4b7d")
+			(uuid "b9af04bf-e71d-47a7-b9e7-5d1ffb1caff1")
+		)
+		(pin "3"
+			(uuid "e5b6ba78-71c5-44e6-9945-473739807b33")
+		)
+		(pin "2"
+			(uuid "7c2da7b0-560d-40e9-8aca-4cb89263f852")
+		)
+		(pin "1"
+			(uuid "6347fc3c-0c58-4074-b327-e4dc777ffeeb")
 		)
 		(instances
 			(project "minimalcode"
