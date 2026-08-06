@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"57faa4cd1da9ae6b","type":"file","file":"img/Button_layout.jpg","x":-300,"y":-260,"width":400,"height":218},
-		{"id":"3145a9b971b094b2","type":"file","file":"img/button_dims.jpg","x":-300,"y":20,"width":400,"height":253}
-	],
-	"edges":[]
-}
