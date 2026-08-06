@@ -721,7 +721,7 @@
         "uuid": "c1e2cc2b-bdaa-431d-8293-8db936d2b3ba"
       }
     ],
-    "used_designators": "TP3,SW1-6,U7-14,C37-38,#PWR27,#PWR72-74,#PWR77-88,Y1",
+    "used_designators": "TP3,SW1-6,U7-14,C37-38,#PWR27,#PWR47,#PWR72-74,#PWR77-88,Y1",
     "variants": []
   },
   "sheets": [
