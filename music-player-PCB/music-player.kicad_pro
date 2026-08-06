@@ -679,7 +679,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "SW1-10,C1-64,Card1,FPC1,Audio1-2,Q1,U1-15,D1-9,L1-2,BT1,R1-51,TP1-15,USB1,J1-2,CN1,TH1-2,Y1,#PWR1-131",
+    "used_designators": "USB1,J1-2,CN1,TP1-15,R1-51,#PWR1-134,Y1,TH1-2,SW1-10,C1-64,Card1,FPC1,Audio1-2,Q1,D1-9,U1-15,L1-2,BT1",
     "variants": []
   },
   "sheets": [
