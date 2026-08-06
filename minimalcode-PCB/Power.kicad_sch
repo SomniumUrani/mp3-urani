@@ -3041,6 +3041,12 @@
 		(uuid "63b85c62-a401-4825-88bb-fa680b3b87d1")
 	)
 	(junction
+		(at 191.77 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b6fba4-01cf-42fe-8da7-a08fb2319529")
+	)
+	(junction
 		(at 69.85 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3280,6 +3286,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 48.26) (xy 191.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fb52dc-33e1-4ddb-824d-4f5ffc887039")
+	)
+	(wire
+		(pts
 			(xy 57.15 57.15) (xy 69.85 57.15)
 		)
 		(stroke
@@ -3320,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 52.07) (xy 194.31 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7025e2ed-aa3c-469c-96d9-17a79ff9dc76")
+	)
+	(wire
+		(pts
 			(xy 158.75 82.55) (xy 161.29 82.55)
 		)
 		(stroke
@@ -3330,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 52.07) (xy 194.31 52.07)
+			(xy 186.69 52.07) (xy 191.77 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4338,6 +4364,107 @@
 			(project "minimalcode"
 				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba/df81d1e8-6b33-4091-beeb-dc3590255f7f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 191.77 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ac06bf-4571-4398-84f2-ae9ff5f8d427")
+		(property "Reference" "TP3"
+			(at 194.31 43.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VDDA_TP"
+			(at 194.31 46.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 191.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 191.77 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 191.77 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d3f38c8-aad4-478d-83cc-4f3915422e24")
+		)
+		(instances
+			(project "minimalcode"
+				(path "/c1e2cc2b-bdaa-431d-8293-8db936d2b3ba/df81d1e8-6b33-4091-beeb-dc3590255f7f"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
