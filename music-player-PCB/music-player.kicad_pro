@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.599998,
-          "height": 2.0,
-          "width": 1.1
+          "drill": 0.0,
+          "height": 3.4,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -557,6 +557,7 @@
       "netlist": "",
       "plot": "/home/yhaksnes/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -679,7 +680,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "Audio1-2,FPC1,Card1,C1-64,SW1-10,BT1,L1-2,Q1,U1-15,D1-9,TP1-15,R1-51,USB1,J1-2,CN1,#PWR1-134,Y1,TH1-2",
+    "used_designators": "USB1,J1-2,CN1,R1-51,TP1-15,TH1-2,Y1,#PWR1-134,Audio1-2,FPC1,Card1,C1-64,SW1-10,BT1,L1-2,Q1,D1-9,U1-15",
     "variants": []
   },
   "sheets": [
