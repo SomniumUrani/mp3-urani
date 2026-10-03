@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "pth_inside_courtyard|142110000|163500000|3c878cf7-996f-4655-9732-c858e41435e5|133f2eb6-809a-4278-8e6b-8fb04b4621ba",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -108,7 +113,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -158,10 +163,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -250,12 +255,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.2,
-          "drill": 0.1
+          "diameter": 0.3,
+          "drill": 0.15
         },
         {
-          "diameter": 0.25,
-          "drill": 0.125
+          "diameter": 0.45,
+          "drill": 0.15
         },
         {
           "diameter": 0.5,
@@ -526,7 +531,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -680,7 +685,7 @@
         "uuid": "6db28ba2-2c43-4ce8-a545-b64bcc3a303f"
       }
     ],
-    "used_designators": "USB1,J1-2,CN1,R1-51,TP1-15,TH1-2,Y1,#PWR1-134,Audio1-2,FPC1,Card1,C1-64,SW1-10,BT1,L1-2,Q1,D1-9,U1-15",
+    "used_designators": "SW1-10,C1-64,Card1,FPC1,Audio1-2,Q1,U1-15,D1-9,L1-2,BT1,R1-51,TP1-15,USB1,J1-2,CN1,TH1-2,Y1,#PWR1-134",
     "variants": []
   },
   "sheets": [

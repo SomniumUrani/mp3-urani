@@ -4052,12 +4052,6 @@
 		(uuid "b9b9dca7-afcd-45c4-b399-b6ce843681ef")
 	)
 	(junction
-		(at 234.95 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbafffac-efc7-4fb3-8a58-cb9e61dfb1ce")
-	)
-	(junction
 		(at 99.06 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4463,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 116.84) (xy 234.95 118.11)
+			(xy 234.95 73.66) (xy 234.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4710,16 +4704,6 @@
 			(type default)
 		)
 		(uuid "78cdeb17-2a38-45db-8654-b79ab2fc235c")
-	)
-	(wire
-		(pts
-			(xy 234.95 73.66) (xy 234.95 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fce8e8e-2fd2-4988-bb87-a7c5c49cfb57")
 	)
 	(wire
 		(pts
@@ -5697,7 +5681,7 @@
 	)
 	(global_label "AUXA_DETECT"
 		(shape input)
-		(at 234.95 118.11 180)
+		(at 234.95 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5707,7 +5691,7 @@
 		)
 		(uuid "e5cd5648-5fe1-4ce7-b1e2-e58935aa942e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5068 118.11 0)
+			(at 219.5068 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
