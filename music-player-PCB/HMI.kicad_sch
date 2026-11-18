@@ -1441,7 +1441,7 @@
 		(uuid "e514933c-df77-484a-be3d-d3c189f9ca01")
 	)
 	(junction
-		(at 54.61 95.25)
+		(at 60.96 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea4edc65-95f5-4c58-9f75-20adb38c75b0")
@@ -1664,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 95.25) (xy 54.61 95.25)
+			(xy 50.8 95.25) (xy 76.2 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1744,16 +1744,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 95.25) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfe6c9e4-b707-496a-b824-d1238a34dcb7")
-	)
-	(wire
-		(pts
 			(xy 124.46 87.63) (xy 121.92 87.63)
 		)
 		(stroke
@@ -1814,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 95.25)
+			(xy 60.96 99.06) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -12605,7 +12595,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 81.28 0)
+		(at 60.96 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12616,7 +12606,7 @@
 		(fields_autoplaced yes)
 		(uuid "2faf39e0-6b7c-47f3-936a-6a6e6514aa0d")
 		(property "Reference" "R7"
-			(at 57.15 80.0099 0)
+			(at 58.42 104.1401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12627,7 +12617,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 57.15 82.5499 0)
+			(at 58.42 101.6001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12638,7 +12628,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 52.832 81.28 90)
+			(at 62.738 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12649,7 +12639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 81.28 0)
+			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12660,7 +12650,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 81.28 0)
+			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12894,8 +12884,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 54.61 77.47 0)
-		(mirror y)
+		(at 60.96 106.68 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12905,7 +12895,7 @@
 		(dnp no)
 		(uuid "61f00c67-e9c3-47b4-a4cd-369fa994c445")
 		(property "Reference" "#PWR034"
-			(at 54.61 81.28 0)
+			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12916,7 +12906,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 54.61 72.39 0)
+			(at 60.96 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12926,7 +12916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 77.47 0)
+			(at 60.96 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +12927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 77.47 0)
+			(at 60.96 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,7 +12938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 54.61 77.47 0)
+			(at 60.96 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
