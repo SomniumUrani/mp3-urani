@@ -3952,30 +3952,6 @@
 			)
 		)
 	)
-	(global_label "LCD_T_CS"
-		(shape input)
-		(at 149.86 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0af4e6b5-1fd5-4d21-bdff-3aa3fd7c0608")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7956 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LCD_T_DIN"
 		(shape input)
 		(at 96.52 175.26 0)
@@ -4072,30 +4048,6 @@
 			)
 		)
 	)
-	(global_label "Expander_INT"
-		(shape input)
-		(at 151.13 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27ea17f6-e34d-428e-8628-cfc5eace903f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.6336 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LCD_SDI"
 		(shape input)
 		(at 96.52 152.4 0)
@@ -4146,7 +4098,7 @@
 	)
 	(global_label "ESP-STM_USART_RX"
 		(shape input)
-		(at 152.4 191.77 0)
+		(at 96.52 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4156,7 +4108,7 @@
 		)
 		(uuid "2c59e0d1-4f00-4357-9f47-39b6db183dee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4955 191.77 0)
+			(at 118.6155 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,6 +4213,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Expander_INT"
+		(shape input)
+		(at 96.52 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4112f265-cbcb-4ec3-84c1-e2dae4f21200")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.0236 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4434,7 +4410,7 @@
 	)
 	(global_label "LCD_RST"
 		(shape input)
-		(at 149.86 114.3 0)
+		(at 96.52 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4444,7 +4420,7 @@
 		)
 		(uuid "67b0e554-0b96-454c-b572-7dfc2917a492")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.828 114.3 0)
+			(at 107.488 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4458,7 +4434,7 @@
 	)
 	(global_label "LCD_DC"
 		(shape input)
-		(at 152.4 129.54 0)
+		(at 96.52 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4468,7 +4444,7 @@
 		)
 		(uuid "69fdd604-154a-494c-94f0-14211bf444c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4609 129.54 0)
+			(at 106.5809 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,30 +4541,6 @@
 		(uuid "7b03a423-86e4-49a9-ba42-951ef584e3e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.62 146.0887 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "HMI_INT"
-		(shape input)
-		(at 152.4 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ca2d6a0-7351-4fac-b844-b4754e36afec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6424 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4842,7 +4794,7 @@
 	)
 	(global_label "ESP-STM_USART_TX"
 		(shape input)
-		(at 152.4 189.23 0)
+		(at 96.52 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4852,7 +4804,7 @@
 		)
 		(uuid "b2dd02bb-d1f8-497c-9e27-a79d1d303ab6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1931 189.23 0)
+			(at 118.3131 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4914,7 @@
 	)
 	(global_label "LCD_Back_light_CTL"
 		(shape input)
-		(at 149.86 111.76 0)
+		(at 96.52 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4972,7 +4924,31 @@
 		)
 		(uuid "b87c5690-413e-43b0-abd3-402e78bbb793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4112 111.76 0)
+			(at 118.0712 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HMI_INT"
+		(shape input)
+		(at 96.52 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b93eef5e-d0aa-42d2-bb77-02ec31dedf49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.7624 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,30 +5045,6 @@
 		(uuid "c99db3fa-e03a-4e9c-ba4b-94f2776ecc93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.5099 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LCD_T_CLK"
-		(shape input)
-		(at 149.86 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cde18f0d-45b0-4f87-967a-ccbbd0cc3715")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8842 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
